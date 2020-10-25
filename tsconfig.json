@@ -1,0 +1,9 @@
+{
+  "files": ["index.ts"],
+  "compilerOptions": {
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2018"
+  }
+}

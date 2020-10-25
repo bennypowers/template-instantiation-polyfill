@@ -1,0 +1,46 @@
+{
+  "name": "template-instantiation",
+  "version": "1.0.0",
+  "description": "Partial Polyfill for the Template Instantiation Proposal",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "typings": "index.d.ts",
+  "exports": "./index.js",
+  "files": [
+    "tsconfig.json",
+    "enums.*",
+    "index.*",
+    "lib.*",
+    "augments",
+    "concepts",
+    "phantoms",
+    "TemplateInstance",
+    "TemplatePart"
+  ],
+  "scripts": {
+    "prepare": "tsc",
+    "test": "wtr --coverage",
+    "start": "wds --node-resolve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bennypowers/template-instantiation-polyfill.git"
+  },
+  "author": "Benny Powers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennypowers/template-instantiation-polyfill/issues"
+  },
+  "homepage": "https://github.com/bennypowers/template-instantiation-polyfill#readme",
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.29",
+    "@pwrs/eslint-config": "0.0.19",
+    "@types/mocha": "^8.0.3",
+    "@web/dev-server": "0.0.15",
+    "@web/dev-server-esbuild": "^0.2.6",
+    "@web/test-runner": "^0.9.5",
+    "eslint": "^7.12.0",
+    "typescript": "^4.0.3"
+  }
+}

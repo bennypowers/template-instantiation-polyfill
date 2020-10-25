@@ -1,0 +1,18 @@
+{
+  "extends": "@pwrs",
+  "rules": {
+    "easy-loops/easy-loops": "off",
+    "no-invalid-this": "off",
+    "spaced-comment": ["error", "always", {
+        "line": {
+            "markers": ["/"],
+            "exceptions": ["-", "+"]
+        },
+        "block": {
+            "markers": ["!", "*"],
+            "exceptions": ["*"],
+            "balanced": true
+        }
+    }]
+  }
+}
