@@ -1,5 +1,5 @@
 {
-  "name": "template-instantiation",
+  "name": "template-instantiation-polyfill",
   "version": "1.0.0",
   "description": "Partial Polyfill for the Template Instantiation Proposal",
   "main": "index.js",
