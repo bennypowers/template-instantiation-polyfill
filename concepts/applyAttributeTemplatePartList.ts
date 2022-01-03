@@ -23,7 +23,7 @@ export function applyAttributeTemplatePartList(setter: AttributeValueSetter): vo
   const { attr, element: currentNode, attributeTemplatePartList } = setter;
 
   const fullyTemplatized =
-    attributeTemplatePartList.length === 1 && typeof this.partList[0] !== 'string';
+    attributeTemplatePartList.length === 1 && typeof attributeTemplatePartList[0] !== 'string';
 
   /** ***********  STEP 2  ************ */
   if (fullyTemplatized) { // fully templatized
